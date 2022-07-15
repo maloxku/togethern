@@ -1,0 +1,26 @@
+:root{
+    --featureSize: 90px;
+}
+
+.feature{
+    height: var(--featureSize);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.symbol{
+    height: var(--featureSize);
+    width: calc(var(--featureSize) * 1.2);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.symbolIcon{
+    height: 90%;
+}
+.explanation{
+    margin: 10px;
+    color: var(--accent);
+}

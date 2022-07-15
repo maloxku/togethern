@@ -1,0 +1,11 @@
+Projektanforderungen:
+
+- dass die Liste aller offenen Räume eingesehen werden kann
+- dass ein neuer Raum angelegt werden kann
+- dass einem Raum beigetreten werden kann, wobei
+    falls man sich noch keinen Nutzernamen gegeben hat, ein neuer Nutzer mit einem neuen Nutzernamen erstellt werden muss
+    falls man bereits einen Nutzernamen hat, dieser Nutzer für die Erstellung des Raumes genutzt werden kann
+- ein Video in einen Raum senden, welcher an alle derzeitigen Raum-Mitglieder gesendet wird
+- einen Player mit dem derzeitigen Video angezeigt bekommen
+- den Zustand des Videos (Start/Stopp) mit allen Raum-Mitgliedern synchronisiert wissen
+    Vor- und Zurückspulen mit allen Raummitgliedern synchronisieren

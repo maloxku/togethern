@@ -1,0 +1,96 @@
+.roomlist-wrapper{
+    margin: 0;
+    padding:0;
+    align-items: center;
+}
+
+.room-header{
+    margin-left: 10%;
+    margin-bottom: 0;
+}
+
+.room-list {
+    background-color: #1F2833;
+    list-style-position: inside;
+    list-style: none;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top: .5%;
+    padding-bottom: 1.5%;    
+    margin: 10%;
+    margin-bottom: 5%;
+}
+
+.other-Room{
+    color: #45A29E;
+    border-style: solid;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-color: #66fcf1;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.current-Room{
+    color: #66FCF1;
+    border-style: solid;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-color: #66fcf1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.room-button-other-Room{
+    color: #45A29E;
+    background: none;
+    border:none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 2% 20% ;
+    margin: 2%;
+ }
+
+ .room-button-current-Room{
+    color: #66FCF1;
+    background: none;
+    border:none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 2% 20% ;
+    margin: 2%;
+    font-style: oblique;
+    text-decoration: underline;
+ }
+
+ .create{
+    margin-left: 10%;
+    color: #45A29E;
+    background: #1F2833;
+    border:none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 2% 8% ;
+    
+ }
+ .delete{
+    margin-left: 11%;
+    margin-bottom: 5%;
+    color: #45A29E;
+    background: #1F2833;
+    border:none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 2% 8% ;
+    
+ }

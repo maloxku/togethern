@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  background-color: #0B0C10;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color:#0B0C10;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  height: 100%;
+}
+.roomlist-box {
+  display: inline-block;
+  width: 25%;
+  border: 1px solid #1F2833;
+  display: flex;
+  flex-direction: column;
+  background-color: #45A29E;
+  color: #C5C6C7;
+  margin: 0.25%;
+  margin-top: 0.5%;
+}
+.video-box {
+  display: inline-block;
+  width: 50%;
+  border: 1px solid #1F2833;
+  background-color: #45A29E;
+  color: #C5C6C7;
+  margin: 0.25%;
+  margin-top: 0.5%;
+}
+
+.memberlist-box {
+  display: inline-block;
+  width: 25%;
+  border: 1px solid #1F2833;
+  display: flex;
+  flex-direction: column;
+  background-color: #45A29E;
+  color: #C5C6C7;
+  margin: 0.25%;
+  margin-top: 0.5%;
+}
+
+.button {
+  cursor: pointer;
+  border: 1px solid #1F2833;
+  padding: 8px;
+  min-width: 64px;
+  background: #66FCF1;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  border-radius: var(--edgeRadius);
+  margin-top: 7%;
+  margin-left: 32.5%;
+  padding: 3%;
+  width: 30%;
+  height: 20%;
+  background-color: #45A29E;
+}
+.login-title {
+  color: #1F2833;
+  text-align: center;
+  font-size: 42px;
+  justify-content: center;
+}
+
+.login-subtitle {
+  color: #1F2833;
+  text-align: center;
+  font-size: 24px;
+  justify-content: center;
+}
+
+.login-text {
+  display: flex;
+  justify-content: center;
+  color: #1F2833;
+  font-size: 20px;
+}
+
+.submit-button{
+  margin-top: 2.5%;
+  padding: 2%;
+  background-color: #C5C6C7;
+  color: #0B0C10;
+  border-radius: var(--edgeRadius);
+}
+
+.centered{
+  display: flex;
+  justify-content: center;
+}
+
+.loginLogo{
+  width: 300px;
+}

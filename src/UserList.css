@@ -1,0 +1,59 @@
+.userList-wrapper{
+    margin: 0;
+    padding:0;
+    align-items: center;
+}
+
+.user-header{
+    margin-left: 10%;
+}
+
+.User-List {
+    background-color: #1F2833;
+    list-style-position: inside;
+    list-style: none;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top: .5%;
+    padding-bottom: 1.5%; 
+    margin: 10%;
+}
+
+.other-user{
+    color: #45A29E;
+    border-style: solid;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-color: #66fcf1;
+    align-items: center;
+    justify-content: center
+}
+
+.current-user{
+    color: #66FCF1;
+    border-style: solid;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-color: #66fcf1;
+    align-items: center;
+    justify-content: center;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.element-Text{
+    text-align: left;
+    margin: 0;
+    font: optional;
+    
+}
+
+.pfp{
+    margin: 1%;
+    height: 25%;
+    width: 25%;
+    flex-basis: 40%
+    
+}
